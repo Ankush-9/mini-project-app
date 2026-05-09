@@ -41,7 +41,29 @@ CodePipeline —> CodeBuild and CodeDeploy
 
 Setup Connections in Settings
 Create a Connection to Github
-——Pending———Theory—and——Practical——
+Connections —> Create Connections —> Github
+Connection Name : AWS-Github-Connection —>connect to GitHub —> app installation —> Give Permission —>Connect
+
+After Connection —> Add Github Repo Link
+WebHook(Rebuild every time a code changes is pushed to this repository 
+—>Single Build
+—>OS —> Amazon Linux
+—>Keep defaults until New Service Role
+—>Create Service Role
+—> Use BuildSpecfile —> Buildspec.yml
+
+After creation IAM role would have been created —> Give CloudFrontPermissions by navigating to IAM roles —> Add Permission —> CloudFrontFullAccess
+
+—CodePipeline
+
+->Create Pipeline ->Build Custom Pipeline
+->Pipeline name : Ankush-webapp-pipeline ->Queued ->New Service role ->Next
+->SourceProvider : Github ->Select the newly created connection
+->Select Github Repo -> branch : main ->keep defaults ->Next
+
+->Build ->Other Build Providers -> Select Project Name —> keep defaults —> next
+—>Deploy ->Amazon S3 —>Bucket —>extract before deploy —>next —> create pipeline
+
 
 
 
