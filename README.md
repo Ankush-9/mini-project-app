@@ -259,7 +259,7 @@ artifacts:
 
 # CloudFront Integration
 
-CloudFront is used to distribute website content globally using edge locations.
+CloudFront is used to distribute website content globally using edge locations.It makes website access latency for anyone accessing the website around the globe.
 
 ## Benefits
 
@@ -287,21 +287,6 @@ These practices help improve application reliability, deployment security, and i
 
 ---
 
-# Optional Enhancements
-
-Future improvements that can be added:
-
-- HTTPS using ACM Certificates
-- Custom Domain using Route53
-- AWS WAF Integration
-- Multi-Environment Deployment
-- Terraform Automation
-- Monitoring using CloudWatch
-- Slack/Email Notifications
-- Blue-Green Deployment Strategy
-
----
-
 # Learning Outcomes
 
 By completing this project, you will understand:
@@ -310,7 +295,6 @@ By completing this project, you will understand:
 - AWS DevOps services integration
 - Automated deployments
 - Static website hosting
-- CDN concepts using CloudFront
 - IAM role management
 - GitHub to AWS workflow automation
 
@@ -322,16 +306,8 @@ This setup is ideal for:
 
 - Portfolio websites
 - Static frontend applications
-- Landing pages
 - Documentation websites
-- React/Vue static builds
 - DevOps learning projects
-
----
-
-# Author
-
-Ankush Walia
 
 ---
 
