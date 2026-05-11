@@ -14,6 +14,12 @@ The project simulates a real-world DevOps workflow using AWS managed services.
 
 ---
 
+# Credits 
+
+The web-application project has been cloned from the following author : https://github.com/Haider7214 
+
+---
+
 # Architecture
 
 ```text
